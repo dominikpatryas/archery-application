@@ -2,31 +2,27 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ProfileComponent } from './profile/profile.component';
-import { AnnouncementsComponent } from './announcements/announcements.component';
-import {UserService} from './_services/user.service';
-import {AnnouncementService} from './_services/announcement.service';
-import {HttpClientModule} from '@angular/common/http';
-import { HeaderComponent } from './header/header.component';
+import { NavComponent } from './nav/nav.component';
 import {AppRoutingModule, routes} from './app-routing.module';
+import { AnnoucementsComponent } from './annoucements/annoucements.component';
+import { LoginComponent } from './login/login.component';
 import {RouterModule} from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileComponent,
-    AnnouncementsComponent,
-    HeaderComponent
+    NavComponent,
+    AnnoucementsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-      HttpClientModule,
-      AppRoutingModule,
-      RouterModule.forRoot(routes)
+    HttpClientModule,
+    AppRoutingModule,
+    RouterModule.forRoot(routes)
   ],
-  providers: [
-      UserService,
-      AnnouncementService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
