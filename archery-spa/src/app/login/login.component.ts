@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {User} from "../_models/user";
+import {UserService} from '../_services/user.service';
+import {Router} from '@angular/router';
+import {AlertifyService} from '../_services/alertify.service';
+import {environment} from "../../environments/environment";
 
 @Component({
   selector: 'app-login',
@@ -8,10 +11,22 @@ import {User} from "../_models/user";
 })
 export class LoginComponent implements OnInit {
 
-  user: User;
-  constructor() { }
+  model: any = {};
+  constructor(private userService: UserService, private router: Router, private alertify: AlertifyService) { }
 
   ngOnInit() {
+  }
+
+  login() {
+    console.log(this.model);
+    console.log(environment.apiUrl + 'login_check/');
+    this.userService.login(this.model).subscribe(next => {
+      this.alertify.success('logged successfully');
+    }, error => {
+      this.alertify.error(error + '');
+    }, () => {
+      this.router.navigate(['']);
+    });
   }
 
 }

@@ -1,5 +1,7 @@
+<form (ngSubmit)="login()">
 <div class="form-group">
-  <input type="email" ngModel="user.email" name="email" required>
-  <input type="password" ngModel="user.password" name="password" required>
-  <input type="submit">
+  <input type="text"  [(ngModel)]="model.username" name="username" required>
+  <input type="password"  [(ngModel)]="model.password" name="password" required>
+  <input type="submit" class="btn btn-primary">
 </div>
+</form>

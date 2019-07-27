@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/archery-api/src/Entity/User.php" line="11" mnemonic="1" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="b6737212-9b81-4ade-a92b-85eb572ea8d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archery-spa/src/app/_services/alertify.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archery-spa/src/app/_services/alertify.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archery-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/archery-api/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archery-api/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/archery-api/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archery-api/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/archery-api/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archery-api/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/archery-api/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archery-api/config/packages/nelmio_cors.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/archery-api/config/packages/nelmio_cors.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/archery-api/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/archery-api/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archery-api/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/archery-api/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archery-api/src/DataFixtures/UserFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/archery-api/src/DataFixtures/UserFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archery-api/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/archery-api/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archery-api/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/archery-api/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archery-spa/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/archery-spa/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archery-spa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/archery-spa/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archery-spa/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/archery-spa/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archery-spa/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/archery-spa/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archery-spa/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/archery-spa/src/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,62 +41,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/archery-api/config/packages/security.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="619">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archery-api/src/DataFixtures/UserFixtures.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/archery-spa/src/app/_services/user.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="560">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
-                <element signature="e#36#56#0#PHP" expanded="true" />
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archery-api/.env">
+        <entry file="file://$PROJECT_DIR$/archery-spa/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archery-api/config/packages/lexik_jwt_authentication.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archery-api/src/Entity/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="55" column="29" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="29" />
+            <state relative-caret-position="336">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
-                <element signature="e#30#62#0#PHP" expanded="true" />
+                <element signature="e#0#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archery-api/config/bundles.php">
+        <entry file="file://$PROJECT_DIR$/archery-spa/src/app/login/login.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="378">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,6 +91,45 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archery-spa/src/app/login/login.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archery-spa/angular.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archery-spa/src/environments/environment.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archery-api/config/packages/nelmio_cors.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -131,6 +151,9 @@
       <find>bundles</find>
       <find>jwt2</find>
       <find>role</find>
+      <find>check</find>
+      <find>login_check</find>
+      <find>boots</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,35 +166,39 @@
         <option value="$PROJECT_DIR$/archery-api/src/Model/User.php" />
         <option value="$PROJECT_DIR$/archery-spa/src/app/profile/profile.component.ts" />
         <option value="$PROJECT_DIR$/archery-spa/src/app/announcements/announcements.component.ts" />
-        <option value="$PROJECT_DIR$/archery-spa/src/app/_services/user.service.ts" />
         <option value="$PROJECT_DIR$/archery-spa/src/app/profile/profile.component.html" />
         <option value="$PROJECT_DIR$/archery-spa/.gitignore" />
         <option value="$PROJECT_DIR$/archery-api/.gitignore" />
         <option value="$PROJECT_DIR$/archery-spa/src/app/header/header.component.css" />
         <option value="$PROJECT_DIR$/archery-spa/src/app/header/header.component.html" />
         <option value="$PROJECT_DIR$/archery-spa/package.json" />
-        <option value="$PROJECT_DIR$/archery-spa/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/archery-spa/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/archery-spa/angular.json" />
         <option value="$PROJECT_DIR$/archery-spa/src/app/app-routing.module.ts" />
-        <option value="$PROJECT_DIR$/archery-spa/src/styles.css" />
         <option value="$PROJECT_DIR$/archery-spa/src/app/nav/nav.component.html" />
-        <option value="$PROJECT_DIR$/archery-spa/src/app/login/login.component.html" />
         <option value="$PROJECT_DIR$/archery-spa/src/app/_models/user.ts" />
-        <option value="$PROJECT_DIR$/archery-spa/src/app/login/login.component.ts" />
-        <option value="$PROJECT_DIR$/archery-api/src/Controller/SecurityController.php" />
         <option value="$PROJECT_DIR$/archery-api/src/Migrations/Version20190726201121.php" />
         <option value="$PROJECT_DIR$/archery-api/config/packages/lexik_jwt_authentication.yaml" />
-        <option value="$PROJECT_DIR$/archery-api/config/packages/nelmio_cors.yaml" />
         <option value="$PROJECT_DIR$/archery-api/src/Repository/UserRepository.php" />
-        <option value="$PROJECT_DIR$/archery-api/config/routes.yaml" />
         <option value="$PROJECT_DIR$/archery-api/.htaccess" />
         <option value="$PROJECT_DIR$/lexik-jwt-authentication-sandbox/config/packages/doctrine.yaml" />
         <option value="$PROJECT_DIR$/lexik-jwt-authentication-sandbox/.env.dist" />
         <option value="$PROJECT_DIR$/archery-api/.env" />
-        <option value="$PROJECT_DIR$/archery-api/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/archery-api/src/Entity/User.php" />
         <option value="$PROJECT_DIR$/archery-api/src/DataFixtures/UserFixtures.php" />
+        <option value="$PROJECT_DIR$/archery-spa/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/archery-spa/src/app/_services/alertify.service.ts" />
+        <option value="$PROJECT_DIR$/archery-api/vendor/lexik/jwt-authentication-bundle/Tests/Functional/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/archery-spa/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/archery-spa/src/styles.css" />
+        <option value="$PROJECT_DIR$/archery-spa/angular.json" />
+        <option value="$PROJECT_DIR$/archery-spa/src/app/login/login.component.html" />
+        <option value="$PROJECT_DIR$/archery-spa/src/app/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/archery-api/config/packages/nelmio_cors.yaml" />
+        <option value="$PROJECT_DIR$/archery-api/config/routes.yaml" />
+        <option value="$PROJECT_DIR$/archery-api/config/packages/security.yaml" />
+        <option value="$PROJECT_DIR$/archery-api/src/Controller/SecurityController.php" />
+        <option value="$PROJECT_DIR$/archery-spa/src/environments/environment.ts" />
+        <option value="$PROJECT_DIR$/archery-spa/src/app/_services/user.service.ts" />
       </list>
     </option>
   </component>
@@ -281,33 +308,20 @@
             <path>
               <item name="ArcheryProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArcheryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="archery-api" type="462c0819:PsiDirectoryNode" />
+              <item name="archery-spa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ArcheryProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArcheryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="archery-api" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArcheryProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArcheryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="archery-api" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="jwt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArcheryProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArcheryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="archery-api" type="462c0819:PsiDirectoryNode" />
+              <item name="archery-spa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ArcheryProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArcheryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="archery-api" type="462c0819:PsiDirectoryNode" />
+              <item name="archery-spa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,7 +338,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="ts.external.directory.path" value="D:\php\xampp\htdocs\ArcheryProject\archery-spa\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -364,12 +378,12 @@
       <workItem from="1563980582280" duration="5442000" />
       <workItem from="1563986174630" duration="3499000" />
       <workItem from="1564152881176" duration="13266000" />
-      <workItem from="1564225118125" duration="6358000" />
+      <workItem from="1564225118125" duration="14977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46998000" />
+    <option name="totallyTimeSpent" value="55617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -401,125 +415,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/header/header.component.css" />
-    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/header/header.component.ts" />
-    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/_services/user.service.ts" />
-    <entry file="file://$PROJECT_DIR$/archery-spa/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/annoucements/annoucements.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-spa/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-spa/angular.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1264">
-          <caret line="79" column="49" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/nav/nav.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/login/login.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/_models/user.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-spa/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-api/src/DataFixtures/AppFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-api/src/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#34#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-api/src/Migrations/Version20190726151937.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archery-api/src/Migrations/Version20190726201121.php" />
     <entry file="file://$PROJECT_DIR$/archery-api/src/Migrations/Version20190726201656.php" />
     <entry file="file://$PROJECT_DIR$/archery-api/src/Migrations/Version20190726201812.php" />
@@ -533,9 +428,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/archery-api/src/Migrations/Version20190726201924.php" />
     <entry file="file://$PROJECT_DIR$/archery-api/src/Migrations/Version20190726201035.php" />
-    <entry file="file://$PROJECT_DIR$/archery-api/config/services.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/archery-api/config/jwt2/public.pem">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -572,13 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archery-api/config/packages/nelmio_cors.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archery-api/src/Repository/UserRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -596,9 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archery-api/config/packages/routing.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/archery-api/config/bundles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -606,24 +488,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archery-api/config/routes.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archery-api/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archery-api/config/packages/doctrine.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -641,10 +509,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archery-api/.env">
+    <entry file="file://$PROJECT_DIR$/archery-api/vendor/symfony/security-core/Encoder/UserPasswordEncoderInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        <state relative-caret-position="384">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -655,10 +523,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archery-api/vendor/symfony/security-core/Encoder/UserPasswordEncoderInterface.php">
+    <entry file="file://$PROJECT_DIR$/archery-api/config/packages/validator.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-api/config/packages/twig.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-api/config/packages/doctrine.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="304">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -672,9 +546,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/_services/user-service.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/archery-api/src/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="880">
           <caret line="55" column="29" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="29" />
           <folding>
             <element signature="e#30#62#0#PHP" expanded="true" />
@@ -682,10 +563,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archery-api/config/packages/security.yaml">
+    <entry file="file://$PROJECT_DIR$/archery-api/config/packages/test/routing.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-api/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-api/config/packages/routing.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-api/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-api/vendor/lexik/jwt-authentication-bundle/Tests/Functional/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/_services/alertify.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/_services/user.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/_services/alertify.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-spa/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-spa/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-api/config/packages/nelmio_cors.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-api/vendor/symfony/security-bundle/Tests/Functional/app/JsonLogin/routing.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-api/config/routes.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-spa/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-api/src/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+          <folding>
+            <element signature="e#34#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-api/config/packages/security.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archery-spa/src/app/_services/user.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

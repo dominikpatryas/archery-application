@@ -8,6 +8,9 @@ import { AnnoucementsComponent } from './annoucements/annoucements.component';
 import { LoginComponent } from './login/login.component';
 import {RouterModule} from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
+import {AlertifyService} from './_services/alertify.service';
+import {UserService} from './_services/user.service';
 
 @NgModule({
   declarations: [
@@ -16,13 +19,17 @@ import { HttpClientModule } from '@angular/common/http';
     AnnoucementsComponent,
     LoginComponent
   ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    AppRoutingModule,
-    RouterModule.forRoot(routes)
+    imports: [
+        BrowserModule,
+        HttpClientModule,
+        AppRoutingModule,
+        RouterModule.forRoot(routes),
+        FormsModule
+    ],
+  providers: [
+      AlertifyService,
+      UserService
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
