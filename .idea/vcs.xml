@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/archery-spa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lexik-jwt-authentication-sandbox" vcs="Git" />
   </component>
 </project>
