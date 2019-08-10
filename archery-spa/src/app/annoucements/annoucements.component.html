@@ -1,6 +1,12 @@
 <div class="container">
   <h3>OGŁOSZENIA</h3>
-  <div  *ngFor="let announcement of announcements"> 
-  <p>  {{announcement.title}}</p>
+  <div class="border mx-auto col-md-10 mt-3" *ngFor="let announcement of announcements"> 
+    <h2>{{announcement.title}}</h2>
+    <div class="announcement-content">
+        <img class="img-fluid" src="{{announcement.photo_url}}" alt="">
+        <div class="description mt-3">
+          <p>{{announcement.description}} <a href="">Czytaj więcej...</a></p>
+        </div>
+    </div>
   </div>
 </div>
