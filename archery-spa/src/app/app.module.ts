@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import {AlertifyService} from './_services/alertify.service';
 import {UserService} from './_services/user.service';
+import { AnnouncementService } from './_services/announcement.service';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {UserService} from './_services/user.service';
     ],
   providers: [
       AlertifyService,
-      UserService
+      UserService,
+      AnnouncementService
   ],
   bootstrap: [AppComponent]
 })

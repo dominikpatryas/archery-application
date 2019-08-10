@@ -14,7 +14,7 @@ export class UserService {
   constructor(private http: HttpClient) { }
 
   login(model: any) {
-      return this.http.post(this.baseUrl + 'login_check', model)
+      return this.http.post(this.baseUrl + 'api/login_check', model)
         .pipe(map((response: any) => {
             console.log(response);
           const user = response;

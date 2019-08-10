@@ -1,7 +1,15 @@
-<form (ngSubmit)="login()">
-<div class="form-group">
-  <input type="text"  [(ngModel)]="model.username" name="username" required>
-  <input type="password"  [(ngModel)]="model.password" name="password" required>
-  <input type="submit" class="btn btn-primary">
+<div class="container bg-dark">
+  <div>
+    <form (ngSubmit)="login()" class="text-center" >
+      <div class="form-group form-control-lg">
+        <input type="text" [(ngModel)]="model.username" name="username" required>
+      </div>
+      <div class="form-group">
+        <input type="password" [(ngModel)]="model.password" name="password" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Zaloguj" class="btn btn-primary">
+      </div>
+    </form>
+  </div>
 </div>
-</form>

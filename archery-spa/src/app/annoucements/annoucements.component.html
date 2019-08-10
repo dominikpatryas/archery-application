@@ -1,3 +1,6 @@
-<p>
-  annoucements works!
-</p>
+<div class="container">
+  <h3>OGŁOSZENIA</h3>
+  <div  *ngFor="let announcement of announcements"> 
+  <p>  {{announcement.title}}</p>
+  </div>
+</div>
