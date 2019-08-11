@@ -4,4 +4,5 @@ export class Announcement {
     description: string;
     date_added: Date;
     visibility: string;
+    photo_url: string;
 }

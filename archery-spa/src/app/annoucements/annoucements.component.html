@@ -3,9 +3,14 @@
   <div class="border mx-auto col-md-10 mt-3" *ngFor="let announcement of announcements"> 
     <h2>{{announcement.title}}</h2>
     <div class="announcement-content">
+      <div class=" text-center">
+      <a href="/announcement/{{announcement.id}}">
         <img class="img-fluid" src="{{announcement.photo_url}}" alt="">
+      </a>
+        <p>Dodano: {{announcement.date_added.date | date: 'dd/MM/yyyy'}}</p>
+      </div>
         <div class="description mt-3">
-          <p>{{announcement.description}} <a href="">Czytaj więcej...</a></p>
+          <p>{{announcement.description | slice:0:260}} <a href="">Czytaj więcej...</a></p>
         </div>
     </div>
   </div>

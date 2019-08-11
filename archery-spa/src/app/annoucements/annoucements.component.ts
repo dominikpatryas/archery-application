@@ -17,10 +17,9 @@ export class AnnoucementsComponent implements OnInit {
 
   loadAnnouncements() {
     this.announcementService.getAnnouncement().subscribe( (announcements: Announcement[]) => {
-      console.log('fajnie');
       this.announcements = announcements;
     }, error => {
-      console.log('error');
+      console.log('Announcement error');
     });
   }
 
