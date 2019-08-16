@@ -1,14 +1,59 @@
-<div class="container bg-dark">
+<div class="container bg-light" *ngIf="!this.registerMode">
   <div>
-    <form (ngSubmit)="login()" class="text-center" >
-      <div class="form-group form-control-lg">
-        <input type="text" [(ngModel)]="model.username" name="username" required>
+    <h2 class="text-center my-5 ">Zaloguj się!</h2>
+    <form (ngSubmit)="login()" class="col-md-4 mx-auto">
+      <div class="form-group">
+        <input class="form-control" type="text" [(ngModel)]="model.username" name="username" placeholder="Username"
+          required>
       </div>
       <div class="form-group">
-        <input type="password" [(ngModel)]="model.password" name="password" required>
+        <input class="form-control" type="password" [(ngModel)]="model.password" name="password" placeholder="Password"
+          required>
+      </div>
+      <div class="row justify-content-between ">
+        <div class="ml-3" (click)="changeRegisterMode()" style="cursor: pointer;">
+            <p class="text-primary"> Register here! </p>
+        </div>
+        <div class="mr-3">
+          <input type="submit" value="Log in" class="btn btn-primary">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="container bg-light animated fadeIn" *ngIf="this.registerMode">
+  <div>
+    <h2 class="text-center my-5 ">Zarejestruj się!</h2>
+    <form (ngSubmit)="login()" class="col-md-4 mx-auto">
+      <div class="form-group">
+        <input class="form-control" type="text" [(ngModel)]="model.username" name="username" placeholder="Username"
+          required>
       </div>
       <div class="form-group">
-        <input type="submit" value="Zaloguj" class="btn btn-primary">
+        <input class="form-control" type="text" [(ngModel)]="model.firstName" name="firstName" placeholder="First Name"
+          required>
+      </div>
+      <div class="form-group">
+        <input class="form-control" type="text" [(ngModel)]="model.lastName" name="lastName" placeholder="Last Name"
+          required>
+      </div>
+      <div class="form-group">
+        <input class="form-control" type="date" [(ngModel)]="model.dateBirth" name="dateBirth" placeholder="Date of birth"
+          required>
+      </div>
+
+      <div class="form-group">
+        <input class="form-control" type="password" [(ngModel)]="model.password" name="password" placeholder="Password"
+          required>
+      </div>
+      <div class="row justify-content-between ">
+        <div class="ml-3" (click)="changeRegisterMode()" style="cursor: pointer;">
+          <p class="text-primary">Log in here! </p>
+        </div>
+        <div class="mr-3">
+          <input type="submit" value="Register me" class="btn btn-primary">
+        </div>
       </div>
     </form>
   </div>

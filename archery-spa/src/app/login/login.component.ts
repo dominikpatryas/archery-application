@@ -12,6 +12,7 @@ import {environment} from '../../environments/environment';
 export class LoginComponent implements OnInit {
 
   model: any = {};
+  registerMode = false;
   constructor(private userService: UserService, private router: Router, private alertify: AlertifyService) { }
 
   ngOnInit() {
@@ -28,5 +29,15 @@ export class LoginComponent implements OnInit {
       this.router.navigate(['']);
     });
   }
+
+  changeRegisterMode() {
+    if (this.registerMode) {
+      this.registerMode = false;
+    } else {
+      this.registerMode = true;
+    }
+  }
+
+
 
 }
