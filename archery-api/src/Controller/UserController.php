@@ -26,11 +26,16 @@ class UserController extends AbstractController
         $string = $request->getContent();
         $data = json_decode(preg_replace('/\s+/', '', $string), true);
         $form = $this->createForm(UserType::class, $user);
+        $form->submit($data);
 
         $user->addRole('ROLE_USER');
-        $form->submit($data);
-        $password = $passwordEncoder->encodePassword($user, $user->getPassword());
-        $user->setPassword($password);
+
+        $user->setPassword(
+                 $passwordEncoder->encodePassword(
+                    $user,
+                    $form->get('password')->getData()
+                )
+            );
 
         $entityManager = $this->getDoctrine()->getManager();
         $entityManager->persist($user);
