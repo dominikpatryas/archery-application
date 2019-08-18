@@ -22,6 +22,7 @@ class UserController extends AbstractController
     public function registerUser(Request $request, UserPasswordEncoderInterface $passwordEncoder)
     {
         $user = new User();
+        // $data = json_decode($request->getContent(), true);
 
         $string = $request->getContent();
         $data = json_decode(preg_replace('/\s+/', '', $string), true);
@@ -29,7 +30,6 @@ class UserController extends AbstractController
         $form->submit($data);
 
         $user->addRole('ROLE_USER');
-
         $user->setPassword(
                  $passwordEncoder->encodePassword(
                     $user,
@@ -41,7 +41,7 @@ class UserController extends AbstractController
         $entityManager->persist($user);
         $entityManager->flush();
 
-        return new Response('Created user', Response::HTTP_CREATED);
+        return new Response(Response::HTTP_OK);
       
     }
 }

@@ -8,7 +8,7 @@ import { AnnoucementsComponent } from './annoucements/annoucements.component';
 import { LoginComponent } from './login/login.component';
 import {RouterModule} from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {AlertifyService} from './_services/alertify.service';
 import {UserService} from './_services/user.service';
 import { AnnouncementService } from './_services/announcement.service';
@@ -24,6 +24,8 @@ import { AnnouncementService } from './_services/announcement.service';
         BrowserModule,
         HttpClientModule,
         AppRoutingModule,
+        FormsModule,
+        ReactiveFormsModule,
         RouterModule.forRoot(routes),
         FormsModule
     ],

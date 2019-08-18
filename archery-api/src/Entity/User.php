@@ -47,6 +47,26 @@ class User implements UserInterface, \Serializable {
     private $lastName;
 
     /**
+     * @ORM\Column(type="string", length=64)
+     */
+    private $city;
+
+    /**
+     * @ORM\Column(type="string", length=64)
+     */
+    private $country;
+
+    /**
+     * @ORM\Column(type="string", length=64)
+     */
+    private $gender;
+
+    /**
+     * @ORM\Column(type="string", length=64)
+     */
+    private $archeryClub;
+
+    /**
      * @ORM\Column(name="is_active", type="boolean")
      */
     private $isActive;
@@ -55,6 +75,11 @@ class User implements UserInterface, \Serializable {
      * @ORM\Column(name="roles", type="array")
      */
     private $roles = array();
+
+    /**
+     * @ORM\Column(name="dateBirth", type="date")
+     */
+    private $dateBirth;
 
     public function __construct() {
         $this->isActive = true;
@@ -194,4 +219,94 @@ class User implements UserInterface, \Serializable {
         $this->firstName = $firstName;
     }
 
+
+    /**
+     * Get the value of dateBirth
+     */ 
+    public function getDateBirth()
+    {
+        return $this->dateBirth;
+    }
+
+    /**
+     * Set the value of dateBirth
+     *
+     * @return  self
+     */ 
+    public function setDateBirth($dateBirth)
+    {
+        $this->dateBirth = $dateBirth;
+    }
+
+    /**
+     * Get the value of city
+     */ 
+    public function getCity()
+    {
+        return $this->city;
+    }
+
+    /**
+     * Set the value of city
+     *
+     * @return  self
+     */ 
+    public function setCity($city)
+    {
+        $this->city = $city;
+    }
+
+    /**
+     * Get the value of country
+     */ 
+    public function getCountry()
+    {
+        return $this->country;
+    }
+
+    /**
+     * Set the value of country
+     *
+     * @return  self
+     */ 
+    public function setCountry($country)
+    {
+        $this->country = $country;
+    }
+
+    /**
+     * Get the value of gender
+     */ 
+    public function getGender()
+    {
+        return $this->gender;
+    }
+
+    /**
+     * Set the value of gender
+     *
+     * @return  self
+     */ 
+    public function setGender($gender)
+    {
+        $this->gender = $gender;
+    }
+
+    /**
+     * Get the value of archeryClub
+     */ 
+    public function getArcheryClub()
+    {
+        return $this->archeryClub;
+    }
+
+    /**
+     * Set the value of archeryClub
+     *
+     * @return  self
+     */ 
+    public function setArcheryClub($archeryClub)
+    {
+        $this->archeryClub = $archeryClub;
+    }
 }
