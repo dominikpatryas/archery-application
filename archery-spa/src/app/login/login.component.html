@@ -1,4 +1,7 @@
-<form [formGroup]="registerForm" (ngSubmit)="register()">
+<div class="row">
+
+
+<form [formGroup]="registerForm" (ngSubmit)="register()" class="col-md-4 mx-auto">
   <h2 class="text-center text-primary">Sign Up</h2>
   <hr>
 
@@ -117,15 +120,19 @@
 
 </form>
 
-<p>{{registerForm.value | json}}</p>
-<p>{{registerForm.status | json}}</p>
+<form (ngSubmit)="login()" class="col-md-4 mx-auto">
+  <h2 class="text-center text-primary">Log in</h2>
+  <hr>
 
+<div class="form-group">
+  <input type="text" class="form-control"  placeholder="Username" [(ngModel)]="model.username">
+</div>
 
-<!-- Choose
-    <div class="form-group">
-    <label for="favouriteValue" > What's your favourite Value? </label>
-    <select class ="form-control" name="form-control" id="favouriteValue"> 
-      <option *ngFor="let value of valuesFromHome" [value]="value"> {{value.name + value.id}}   </option>
-    </select>
-  </div>
--->
+<div class="form-group">
+  <input type="password" class="form-control" placeholder="Password" [(ngModel)]="model.password">
+</div>
+<div class="form-group text-center">
+  <button class="btn btn-success" type="submit ">Log in!</button>
+</div>
+</form>
+</div>
